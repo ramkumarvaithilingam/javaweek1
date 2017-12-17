@@ -5,7 +5,7 @@ public class BankAccount {
 	private String accountName;
 	private int balance=1000;
 	
-	//Overloaded 
+	//Overloaded Constructor
 		public BankAccount(String accountNo, String accountName) {
 			super();
 			System.out.println("overloaded Constructor is fired.. "+"Acc No: "+accountNo+" Acc Name: "+accountName+" Balance " +balance);
